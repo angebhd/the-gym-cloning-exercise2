@@ -52,14 +52,32 @@
 .trending div{
     @apply p-4 pt-8;
 }
-.trending div p{
+.trending div{
     @apply text-sm text-gray-500 ;
 }
 .trending div div{
-    @apply p-0 flex justify-between mt-3
+    @apply p-0 flex justify-between mt-3 text-black hover:text-blue-700
 }
 .trending div div p{
-    @apply text-sm text-black font-bold;
+    @apply text-sm  font-bold ;
 
+}
+
+.myRoundedGray-bg{
+    border-radius: 8rem;
+}
+.top-game{
+    @apply flex flex-col items-center bg-white;
+}
+.top-game div {
+    @apply text-gray-500 text-xs p-5 flex flex-col items-center
+}
+
+.top-game div div {
+    @apply text-black text-sm font-bold p-0
+}
+
+.top-game div div span{
+    @apply bg-red-400 text-white py-2 px-5  translate-y-full rounded-3xl
 }
 
