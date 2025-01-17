@@ -2,8 +2,14 @@
 @tailwind base;
 @tailwind components;
 
-.nav-element{
-    @apply text-gray-200 hover:bg-blue-800 px-4 py-2 rounded-3xl text-sm;
-}
-@tailwind utilities;
 
+@tailwind utilities;
+.nav-element{
+    @apply text-gray-100 hover:bg-blue-800 active:bg-blue-800 px-4 py-2 rounded-3xl text-sm;
+}
+
+.banner-div{
+    border-bottom-right-radius: 10rem;
+    border-bottom-left-radius: 10rem;
+
+}

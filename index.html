@@ -5,33 +5,40 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="index.css">
+    <link rel="shortcut icon" href="img/favicon.ico" type="image/x-icon">
     <title>Clonning exercise 2</title>
 </head>
 
 <body class="">
-    <div class="bg-[url(img/banner-bg.jpg)] h-screen rounded-b-3xl">
-        <div class="grid grid-cols-5 max-w-5xl mx-auto ">
+    <div class="bg-[url(img/banner-bg.jpg)] h-auto rounded-b-3xl banner-div">
+        <div class="grid grid-cols-5 max-w-5xl mx-auto pt-5">
             <div class="col-span-2">
                 <img src="img/logo.png" alt="Logo">
             </div>
             <nav class="col-span-3 inline-flex  justify-between items-center">
-                <a href="#" class=".nav-element text-gray-100 hover:bg-blue-800 active:bg-blue-800 px-4 py-2 rounded-3xl text-sm">Home</a>
-                <a href="#" class="text-gray-100 hover:bg-blue-800 active:bg-blue-800 px-4 py-2 rounded-3xl text-sm">Our Shop</a>
-                <a href="#" class="text-gray-100 hover:bg-blue-800 active:bg-blue-800 px-4 py-2 rounded-3xl text-sm">Product Details</a>
-                <a href="#" class="text-gray-100 hover:bg-blue-800 active:bg-blue-800 px-4 py-2 rounded-3xl text-sm">Contact Us</a>
+                <a href="#" class="nav-element ">Home</a>
+                <a href="#" class="nav-element">Our Shop</a>
+                <a href="#" class="nav-element">Product Details</a>
+                <a href="#" class="nav-element">Contact Us</a>
                 <a href="#" class="text-gray-100 bg-red-400 font-semibold px-4 py-2 rounded-3xl text-sm">SIGN IN</a>
             </nav>
         </div>
 
-        <div class="grid grid-cols-6 max-w-5xl m-auto mt-32">
-            <div class="col-span-3">
-                <p>Welcome to lugx</p>
-                <h2>BEST GAMING SITE EVER!</h2>
-                <p>LUGX Gaming is free Bootstrap 5 HTML CSS website template for your gaming websites. You can download and use this layout for commercial purposes. Please tell your friends about TemplateMo.</p>
-                <div>
-                    <form action="">
-                        <input type="text">
-                        <button>SEARCH NOW</button>
+        <div class="grid grid-cols-6 max-w-5xl m-auto mt-24">
+            <div class="col-span-3 flex flex-col justify-center">
+                <p class="uppercase text-gray-50 font-medium my-5">Welcome to lugx</p>
+                <h2 class="text-4xl text-gray-50 font-extrabold">BEST GAMING SITE EVER!</h2>
+                <img src="img/caption-dec.png" alt="" class=" max-w-36 ml-24 ">
+                <p class="text-sm text-gray-50 my-5 py-5">LUGX Gaming is free Bootstrap 5 HTML CSS website template for
+                    your gaming websites. You can download and use this layout for commercial purposes. Please tell your
+                    friends about TemplateMo.</p>
+                <div class=" rounded-3xl overflow-hidden ">
+                    <form action="#" class=" grid grid-cols-10  ">
+                        <div class="bg-white col-span-8 grid grid-cols-8 rounded-3xl">
+
+                            <input type="text" placeholder="Type something" class="col-span-5 px-3 text-sm">
+                            <button class=" rounded-3xl bg-red-400  text-white text-sm col-span-3 py-3">SEARCH NOW</button>
+                        </div>
                     </form>
                 </div>
             </div>
