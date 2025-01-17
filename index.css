@@ -34,3 +34,32 @@
     font-weight:800 ;
 }
 
+.trending{
+    @apply rounded-3xl overflow-hidden bg-gray-100 relative
+}
+
+.trending span{
+    @apply absolute top-5 right-5 p-2 rounded-xl flex place-items-center flex-col font-semibold text-white;
+    background-color: #4949fc;
+}
+
+.trending span b{
+    @apply text-xs;
+    font-weight: 400;
+    text-decoration: line-through;
+}
+
+.trending div{
+    @apply p-4 pt-8;
+}
+.trending div p{
+    @apply text-sm text-gray-500 ;
+}
+.trending div div{
+    @apply p-0 flex justify-between mt-3
+}
+.trending div div p{
+    @apply text-sm text-black font-bold;
+
+}
+
