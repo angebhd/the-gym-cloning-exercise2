@@ -96,7 +96,7 @@
 }
 
 .top-categories p{
-    @apply my-5 text-white font-semibold
+    @apply my-3 text-white font-semibold
 }
 .top-categories img {
     @apply rounded-3xl
