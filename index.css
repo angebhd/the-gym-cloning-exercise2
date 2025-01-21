@@ -75,7 +75,7 @@
     @apply flex flex-col items-center bg-white rounded-2xl;
 }
 
-.top-game img{
+.top-game img {
     @apply rounded-t-2xl
 }
 
@@ -91,13 +91,14 @@
     @apply bg-red-400 text-white py-2 px-5 translate-y-full rounded-3xl z-50
 }
 
-.top-categories{
+.top-categories {
     @apply flex flex-col items-center bg-blue-600 rounded-3xl
 }
 
-.top-categories p{
+.top-categories p {
     @apply my-3 text-white font-semibold
 }
+
 .top-categories img {
     @apply rounded-3xl
 }
