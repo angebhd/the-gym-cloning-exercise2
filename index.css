@@ -15,14 +15,14 @@
 }
 
 .featured {
-    @apply bg-white shadow-2xl py-5 rounded-3xl flex flex-col items-center w-60
+    @apply bg-white shadow-2xl py-5 rounded-3xl flex flex-col items-center w-full
 }
 
 .featured div {
     background-color: #2222ff;
     border-radius: 50%;
-    width: 4rem;
-    height: 4rem;
+    width: 5rem;
+    height: 5rem;
     display: flex;
     place-content: center;
     padding: 1rem;
